@@ -1,0 +1,6 @@
+şimdilik tema ve lualine okey gibi ama öncelikle 
+
+tema: değişim için coloscheme klasörüne giricez şimdki kullanılan temanın vim setini commente alacaz sonra istediğimizi uncomment yapacaz. bu benim istediğim değil bunu  yerine bir init dosyasında hepsini tutsam daha mantıklı gibi.
+
+lualine: daha bazı istediğim göstermesi gereken şeyler var onlar ile sonra ilgilenecem
+
