@@ -1,0 +1,109 @@
+# --- TEMA SEÇİM SATIRI ---
+# Script bunu otomatik değiştirecek
+general.import = ["/home/samsara/.config/alacritty/themes/catppuccin_macchiato.toml"]
+
+
+# --- RENK AYARLARI ---
+[colors]
+draw_bold_text_with_bright_colors = true
+
+
+# --- CURSOR AYARLARI ---
+[cursor]
+unfocused_hollow = true
+
+[cursor.style]
+shape = "Block"
+blinking = "On"
+
+
+# --- FONT AYARLARI ---
+[font]
+size = 11
+builtin_box_drawing = true
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+
+[font.glyph_offset]
+x = 0
+y = 1
+
+
+# --- SCROLLING ---
+[scrolling]
+history = 10000
+multiplier = 3
+
+
+# --- WINDOW AYARLARI ---
+[window]
+decorations = "none"
+opacity = 0.8
+blur = true
+dynamic_padding = true
+startup_mode = "Windowed"
+title = "Alacritty"
+option_as_alt = "OnlyLeft"
+
+[window.padding]
+x = 3
+y = 3
+
+
+# --- SEÇİM ---
+[selection]
+save_to_clipboard = true
+
+
+# --- BELL ---
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+color = "0xffffff"
+
+
+
+# --- KISAYOLLAR (örnek birkaç tane) ---
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Control|Shift"
+action = "SpawnNewInstance"
+
+# --- TERMINAL PANELS / TMUX NAVIGATION ---
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001b[1;3D"  # Alt + Left
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001b[1;3C"  # Alt + Right
+
+[[keyboard.bindings]]
+key = "Up"
+mods = "Alt"
+chars = "\u001b[1;3A"  # Alt + Up
+
+[[keyboard.bindings]]
+key = "Down"
+mods = "Alt"
+chars = "\u001b[1;3B"  # Alt + Down
+
