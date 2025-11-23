@@ -28,6 +28,8 @@ alias py="python"
 alias tmp="/tmp"
 alias pterm="sudo -u postgres psql"
 alias lncrawli="docker run -v ~/Lightnovels:/home/appuser/app/Lightnovels -it lncrawl"
+alias theme="~/.config/alacritty/switch_theme.sh"
+alias startxampp="sudo /opt/lampp/lampp start"
 
 
 
